@@ -25,6 +25,8 @@ func main() {
 	fmt.Println(!flag)
 
 	//逻辑与和逻辑或短路
+	//逻辑与：前面是false 后面就不会执行
+	//逻辑或：前面是true 后面就不会执行
 
 	/*
 		test...

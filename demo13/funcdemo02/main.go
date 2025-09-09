@@ -28,6 +28,10 @@ func calc2(x, y int) (sum, sub int) {
 	return
 }
 
+func test() {
+	fmt.Println("执行...")
+}
+
 func main() {
 	sum1 := sumFn(10, 2)
 	fmt.Println(sum1) // 12
@@ -46,4 +50,6 @@ func main() {
 
 	_, b3 := calc2(10, 2)
 	fmt.Println(b3)
+
+	test()
 }
